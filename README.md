@@ -34,10 +34,10 @@ You can update the location of the finstall config file by setting the `FINSTALL
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [zephraph][author] et [al][contributors]
 
 [mit]: https://opensource.org/licenses/MIT
-[author]: https://github.com/{{USER}}
-[contributors]: https://github.com/{{USER}}/plugin-finstall/graphs/contributors
+[author]: https://github.com/zephraph
+[contributors]: https://github.com/zephraph/plugin-finstall/graphs/contributors
 [omf-link]: https://www.github.com/oh-my-fish/oh-my-fish
 [license-badge]: https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
