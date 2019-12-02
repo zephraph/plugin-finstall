@@ -15,7 +15,7 @@ Adds a `finstall` function that manages that installs a package via a specified 
 ## Install
 
 ```fish
-$ omf install finstall
+$ omf install https://github.com/zephraph/plugin-finstall
 ```
 
 ## Usage
