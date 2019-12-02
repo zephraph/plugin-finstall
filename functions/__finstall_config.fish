@@ -1,6 +1,6 @@
 function __finstall_config
     set -ql FINSTALL_CONFIG
-    or set FINSTALL_CONFIG ~/.config/fish/finstall
+    or set FINSTALL_CONFIG ~/.config/fish/finstall_packages
 
     if not test -e $FINSTALL_CONFIG
         touch $FINSTALL_CONFIG

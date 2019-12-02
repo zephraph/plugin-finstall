@@ -1,3 +1,4 @@
+# TODO: Update this function to uninstall all tracked packages.
 function funinstall -d "Uninstall a package with a record"
     set -l pkgManager $argv[1]
     set -l pkg $argv[2]

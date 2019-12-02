@@ -10,6 +10,8 @@
 
 <br/>
 
+**This plugin is a work-in-progress, use at your own risk**
+
 Adds a `finstall` function that manages that installs a package via a specified package manager but keeps track of what's installed so you can easily get set up in a different environment.
 
 ## Install
@@ -20,9 +22,15 @@ $ omf install https://github.com/zephraph/plugin-finstall
 
 ## Usage
 
+For package managers that are supported (currently only `brew`) just install your dependencies like normal
+
 ```fish
-$ finstall
+$ brew install exa
 ```
+
+If the `brew install` command is successful an entry will by default be added into `~/.config/fish/finstall_packages`.
+
+You can update the location of the finstall config file by setting the `FINSTALL_CONFIG` environment variable
 
 # License
 

@@ -1,3 +1,4 @@
+# TODO: Update this function to install all tracked packages
 function finstall -d "Install a package with a record"
     set -l pkgManager $argv[1]
     set -l pkg $argv[2]
