@@ -1,0 +1,1 @@
+set -U __finstall_supported_pkg_managers brew
